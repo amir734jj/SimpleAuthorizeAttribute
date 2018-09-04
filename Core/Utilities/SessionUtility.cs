@@ -12,6 +12,8 @@ namespace SimpleAuthorizeAttribute.Core.Utilities
         private readonly string _role;
         private readonly KeyValuePair<string, string> _authenticated;
 
+        public SessionUtility(): this("username", "password", "role", new KeyValuePair<string, string>("authenticated", "authenticated")) { }
+        
         /// <summary>
         /// Constructor
         /// </summary>
