@@ -1,9 +1,11 @@
-﻿namespace SimpleAuthorizeAttribute.Core.Models
+﻿using SimpleAuthorizeAttribute.Core.Interfaces;
+
+namespace SimpleAuthorizeAttribute.Core.Models
 {
     /// <summary>
-    /// UserInfo Struct
+    /// UserInfo class
     /// </summary>
-    public struct UserInfo
+    public class UserInfo : IUserInfo
     {
         public string Username { get; set; }
         

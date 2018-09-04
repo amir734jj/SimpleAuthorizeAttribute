@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using SimpleAuthorizeAttribute.Core.Interfaces;
 using SimpleAuthorizeAttribute.Core.Models;
 
-namespace SimpleAuthorizeAttribute.Core
+namespace SimpleAuthorizeAttribute.Core.Utilities
 {    
     public class SessionUtility : ISessionUtility
     {
